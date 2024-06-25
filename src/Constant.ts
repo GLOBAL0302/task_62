@@ -16,7 +16,7 @@ export const tickets: Iticket[] = [
   },
 
   {
-    country: 'europe',
+    country: 'Europe',
     img: europe,
     price: 500
   },
