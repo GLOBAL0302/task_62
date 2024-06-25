@@ -4,7 +4,7 @@ import React from 'react';
 import {Iticket} from '../../types';
 
 interface Props{
-  addTickets:(value:Iticket)=>void
+  addTickets:(value:Iticket)=>void;
 }
 
 const Pricing:React.FC<Props> = ({addTickets}) => {

@@ -1,7 +1,7 @@
 import {Iticket} from './types';
 import rome from './img/romeTicket.svg';
-import london from './img/londonTicket.svg'
-import europe from './img/europeTicket.svg'
+import london from './img/londonTicket.svg';
+import europe from './img/europeTicket.svg';
 
 export const tickets: Iticket[] = [
   {

@@ -1,24 +1,24 @@
 import {Iticket} from '../../types';
 
 interface Props{
-  items:Iticket[]
+  items:Iticket[];
 }
 
 const countPrice = (value:Iticket[])=>{
   let countryTotal = value.reduce((acc, item)=>{
-    return acc + item.price
+    return acc + item.price;
   },0)
-  return countryTotal
+  return countryTotal;
 }
 
 const CheckOut:React.FC<Props> = ({items}) => {
   let total = items.reduce((acc, item)=>{
-    return acc + item.price
-  }, 0)
+    return acc + item.price;
+  }, 0);
 
-  let london = items.filter(item => item.country === "London")
-  let roma = items.filter(item => item.country === "Rome")
-  let europe = items.filter(item => item.country === "Europe")
+  let london = items.filter(item => item.country === "London");
+  let roma = items.filter(item => item.country === "Rome");
+  let europe = items.filter(item => item.country === "Europe");
 
 
   console.log();

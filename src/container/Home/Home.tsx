@@ -7,7 +7,7 @@ import {Route, Routes} from 'react-router-dom';
 import CheckOut from '../../components/CheckOut/CheckOut';
 
 const Home = () => {
-  const [allTickets, setAllTickets] = useState<Iticket[]>([])
+  const [allTickets, setAllTickets] = useState<Iticket[]>([]);
   const addTickets = (value:Iticket) =>{
     setAllTickets((prevState)=>[
       ...prevState,
